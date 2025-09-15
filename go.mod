@@ -1,12 +1,13 @@
 module github.com/elgohr/cf-jetbrains-license-server
 
-go 1.21
+go 1.23
+
 toolchain go1.23.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.10.1
 	github.com/headzoo/surf v1.0.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
